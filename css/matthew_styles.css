@@ -1,0 +1,76 @@
+/*
+	Name: matthew hall
+	Current Date: 10/08/2021
+	File Name: styles.css
+*/
+
+/* Style rule to reset CSS */
+body, header, nav, main, footer, h1, h2, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body */
+body	{
+	font-family: Georgia, Arial, Times;
+}
+
+header h1, header p {
+    margin: 0;
+    padding: 0;
+
+}
+/* Style rules for main */
+main	{
+	padding:1% 5% 1% 5%;
+    text-align: left;
+}
+
+iframe	{
+	border: 5px solid #555555;
+	border-radius: 3%;
+}
+
+img		{
+	max-width: 75%;
+}
+
+p a {
+	color: chartreuse;
+}
+
+p a:hover {
+	color: green;
+}
+
+
+#jumbo { margin-bottom: 0; }
+
+#profile, #overview, #about, #contact	{
+	
+ 
+}
+
+#profile {
+    text-align: center;
+ 
+}
+
+#profile img	{
+	border-color: #333333;
+	border-style: solid;
+	border-radius: 75%;
+    box-shadow: 0px 0px 40px  rgba(0,0,0,0.6);
+}
+
+
+
+#overview h2	{
+	text-align: center;
+}
+
+
+
+
+
