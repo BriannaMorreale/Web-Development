@@ -1,0 +1,32 @@
+html, head, body, header, div, h1, p, nav, main, footer{
+	padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body, main, div, footer {
+	background: #272c3b;
+	color: white;
+}
+
+header{
+	background: #272c3b;
+	text-align: center;
+	color: white;
+	padding: 1%;
+}
+
+.contact_stuff{
+	text-align: center;
+	font-size: 150%;
+	background: linear-gradient(to bottom left, #6e6e6e, #272c3b 70%);
+	padding: 2%;
+}
+
+label{
+	margin-right: 2%;
+}
+
+footer{
+	text-align: center;
+}

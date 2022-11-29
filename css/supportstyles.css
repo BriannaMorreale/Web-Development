@@ -1,0 +1,63 @@
+html, head, title, body, header, div, h1, p, nav, button, ul, li, a, main, footer, h6, button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: chartreuse;
+}
+
+p a:hover {
+    color: green;
+}
+
+#jumbo { margin-bottom: 0; }
+
+.togglequestion {
+    display: block;
+    text-align: center;
+}
+
+.questionbtn {
+    background-color: #273137;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    overflow: auto;
+    width: 100%;
+}
+
+.questionbtn:hover {
+    background-color: #374147;
+}
+
+.questionbtn:focus{
+    outline: none;
+    border: none;
+}
+
+.answer-content {
+    display: none;
+    overflow: auto;
+    text-align: center;
+    background-color: rgb(0, 64, 0);
+    padding: 16px;
+}
+
+.answer-content p {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.footer{
+    display: block;
+}
